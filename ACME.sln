@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.Server", "ACME.Server\ACME.Server.csproj", "{44E5E5BA-38EB-4535-AC7F-57C5BAE01C7A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "acme.client", "acme.client\acme.client.esproj", "{EEF3DA8B-1233-475D-A64E-AC22CEFCFE9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44E5E5BA-38EB-4535-AC7F-57C5BAE01C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E5E5BA-38EB-4535-AC7F-57C5BAE01C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E5E5BA-38EB-4535-AC7F-57C5BAE01C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E5E5BA-38EB-4535-AC7F-57C5BAE01C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF3DA8B-1233-475D-A64E-AC22CEFCFE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF3DA8B-1233-475D-A64E-AC22CEFCFE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF3DA8B-1233-475D-A64E-AC22CEFCFE9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EEF3DA8B-1233-475D-A64E-AC22CEFCFE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF3DA8B-1233-475D-A64E-AC22CEFCFE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF3DA8B-1233-475D-A64E-AC22CEFCFE9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4720930B-268E-4D49-98D3-23F280CBD7FB}
+	EndGlobalSection
+EndGlobal
